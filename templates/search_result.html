@@ -1,0 +1,4 @@
+<h2>Qidiruv natijalari</h2>
+{% for oshpaz in barcha_oshpazlar %}
+<h3><a href="{% url 'teamdetail' oshpaz.slug %}">{{oshpaz.name}}</a></h3>
+{% endfor %}
